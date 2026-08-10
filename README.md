@@ -41,43 +41,6 @@
 
 ---
 
-## 📁 Структура проекта
-
-daria-20-phoenix/
-├── app/
-│   ├── layout.tsx          # Корневой лейаут
-│   ├── page.tsx            # Главная страница
-│   ├── globals.css         # Глобальные стили
-│   ├── evolution/          # Таймлайн (20 кадров)
-│   ├── memories/           # Фотогалерея
-│   ├── hobbies/            # Миры увлечений
-│   ├── design-studio/      # Кабинет дизайна
-│   ├── greetings/          # Стена поздравлений
-│   └── secret/             # Секретная страница (пасхалка)
-├── components/
-│   ├── Navigation.tsx      # Навигация
-│   ├── Hero.tsx            # Герой-блок главной
-│   ├── LogoEasterEgg.tsx   # Логотип с пасхалкой
-│   ├── BackgroundEffects.tsx # Фоновые анимации
-│   ├── Timeline/           # Компоненты таймлайна
-│   ├── Hobbies/            # Компоненты увлечений
-│   ├── ArtisticPhotoGrid.tsx # Фотогалерея
-│   └── GreetingsBoard.tsx  # Доска поздравлений
-├── public/
-│   ├── images/daria/       # Фотографии
-│   │   ├── childhood/      # 10 фото (2005-2011)
-│   │   ├── teenage/        # 10 фото (2012-2017)
-│   │   └── adult/          # 7 фото (2018-2025)
-│   ├── logo.svg            # Логотип
-│   └── favicon.ico
-├── utils/                  # Вспомогательные функции
-├── package.json
-├── next.config.js
-├── tailwind.config.ts
-└── README.md
-
----
-
 ## 🔧 Оптимизация и производительность
 
 - Все изображения проходят оптимизацию через next/image
