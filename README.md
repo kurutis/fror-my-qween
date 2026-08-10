@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎂 Дарья: Портрет в 20 кадрах
 
-## Getting Started
+Интерактивный цифровой подарок к 20-летию — сайт-поздравление, объединяющий дизайн, гейминг и историю личности.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://via.placeholder.com/800x400?text=%D0%94%D0%B0%D1%80%D1%8C%D1%8F+20+%D0%BB%D0%B5%D1%82
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ О проекте
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Этот проект — персонализированный веб-сайт, созданный как подарок для Дарьи. Он сочетает в себе элементы интерактивной галереи, таймлайна жизни, игровых увлечений и дизайнерского портфолио. Сайт построен на современных технологиях и адаптирован под все устройства.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Основная идея
 
-To learn more about Next.js, take a look at the following resources:
+Не просто сайт-открытка, а интерактивный цифровой портрет, рассказывающий историю становления личности через 20 лет жизни, увлечения и профессиональный путь.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔥 Ключевые символы
 
-## Deploy on Vercel
+- Феникс — символ трансформации, возрождения и силы
+- Лилия — символ чистоты, нежности и изящества
+- 20 кадров — 20 интерактивных моментов на таймлайне
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Демо
+
+Проект доступен по адресу: https://for-my-qween.vercel.app
+
+---
+
+## 📦 Технологии
+
+- Next.js 16.0.7 — React-фреймворк с App Router
+- React 19 — библиотека для построения интерфейсов
+- Tailwind CSS 4 — утилитарный CSS-фреймворк
+- Framer Motion — библиотека для анимаций
+- Lucide React — набор иконок
+- TypeScript — статическая типизация
+
+---
+
+## 📁 Структура проекта
+
+daria-20-phoenix/
+├── app/
+│   ├── layout.tsx          # Корневой лейаут
+│   ├── page.tsx            # Главная страница
+│   ├── globals.css         # Глобальные стили
+│   ├── evolution/          # Таймлайн (20 кадров)
+│   ├── memories/           # Фотогалерея
+│   ├── hobbies/            # Миры увлечений
+│   ├── design-studio/      # Кабинет дизайна
+│   ├── greetings/          # Стена поздравлений
+│   └── secret/             # Секретная страница (пасхалка)
+├── components/
+│   ├── Navigation.tsx      # Навигация
+│   ├── Hero.tsx            # Герой-блок главной
+│   ├── LogoEasterEgg.tsx   # Логотип с пасхалкой
+│   ├── BackgroundEffects.tsx # Фоновые анимации
+│   ├── Timeline/           # Компоненты таймлайна
+│   ├── Hobbies/            # Компоненты увлечений
+│   ├── ArtisticPhotoGrid.tsx # Фотогалерея
+│   └── GreetingsBoard.tsx  # Доска поздравлений
+├── public/
+│   ├── images/daria/       # Фотографии
+│   │   ├── childhood/      # 10 фото (2005-2011)
+│   │   ├── teenage/        # 10 фото (2012-2017)
+│   │   └── adult/          # 7 фото (2018-2025)
+│   ├── logo.svg            # Логотип
+│   └── favicon.ico
+├── utils/                  # Вспомогательные функции
+├── package.json
+├── next.config.js
+├── tailwind.config.ts
+└── README.md
+
+---
+
+## 🔧 Оптимизация и производительность
+
+- Все изображения проходят оптимизацию через next/image
+- Анимации работают только на клиенте (hydration-safe)
+- Используются детерминированные генераторы для избежания ошибок гидратации
+- Ленивая загрузка компонентов, где возможно
+
+---
+
+## 💡 Особенности реализации
+
+- Пасхалка — логотип с системой подсчёта кликов
+- Гидратация — все динамические данные предопределены или генерируются детерминированно
+- Адаптивность — полностью резиновый дизайн для всех устройств
+- Анимации — плавные переходы с помощью Framer Motion
+- Типизация — полное покрытие TypeScript
+
+---
+
+## 📄 Лицензия
+
+Этот проект является открытым исходным кодом и доступен для использования в личных целях. Вы можете адаптировать его для своих подарков. Коммерческое использование запрещено.
+
+---
+
+## 💬 Контакты
+
+Автор: kurutis
+GitHub: https://github.com/kurutis
+Дарья: Если ты это читаешь — с Днём Рождения! 🎉
+
+---
+
+## ⭐ Звёздочка
+
+Если проект вам понравился, поставьте звёздочку на GitHub — это лучшая награда! ⭐
+
+_Сделано с любовью и восхищением. ❤️_
